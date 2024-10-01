@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FIELDSET and LEGEND Tags</title>
+</head>
+<body>
+    <h1>FIELDSET and LEGEND Tags with ReadOnly and Disabled Attributes</h1>
+    <fieldset>
+        <legend>My Personal Information</legend>
+        <form>
+            <legend>My Personal Information</legend>
+            <label for="My_Personal_Information_Name">My Name:</label>
+            <input type="text" name="My_Personal_Information_Name" id="My_Personal_Information_Name" size="20" value="Princes Angelie T. Subido"><br>
+            <label for="Province">My Province:</label><br>
+            <input type="text" name="Province" id="Province" size="25" value="Quezon City, Metro Manila, NCR"><br>
+            <label for="Favorite_Color">My Favorite Color:</label>
+            <input type="text" name="Favorite_Color" id="Favorite_Color" size="5"><br>
+            <label for="My_Personal_Information_Sex">My Sex Status:</label><br>
+
+            <!-- Grouping radio buttons by assigning the same "name" -->
+            <input type="radio" id="My_Personal_Information_Male" name="sex" value="Male">
+            <label for="My_Personal_Information_Male">Male</label>
+            
+            <input type="radio" id="My_Personal_Information_Female" name="sex" value="Female">
+            <label for="My_Personal_Information_Female">Female</label>
+            
+            <input type="radio" id="My_Personal_Information_LGBTQIA+++" name="sex" value="LGBTQIA+++">
+            <label for="My_Personal_Information_LGBTQIA+++">LGBTQIA+++</label><br><br>
+
+            <input type="reset" value="Clear All">
+            <input type="submit" value="Save">
+        </form>
+    </fieldset>
+</body>
+</html>
